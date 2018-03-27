@@ -16,6 +16,7 @@ public class BookRestController {
 
     private BookRepository repository;
     private BookRestService bookRestService;
+    privete static String = "OrekhovNeSharit";
 
     @Autowired
     public void setRepository(BookRepository repository) {
